@@ -46,7 +46,7 @@ create_reading <- function(name,
   dir.create(file.path(maindir,"description"))
 
   # Create files
-  writeLines(toJSON(js, pretty = TRUE),
+  writeLines(toJSON(js, pretty = TRUE, auto_unbox = TRUE),
              con = file.path(maindir,
                              "config.json")
   )
