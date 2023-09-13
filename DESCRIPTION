@@ -1,0 +1,12 @@
+Package: rdodona
+Title: Some helper functions to quickly create Dodona exercises
+Version: 0.0.0.9000
+Authors@R: 
+    person("Joris", "Meys", , "Joris.Meys@UGent.be", role = c("aut", "cre"))
+Description: Dodona.be is an online learning platform for coding. With this code
+    you can create the skeleton for the exercises and reading materials.
+Imports: jsonlite
+License: file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
