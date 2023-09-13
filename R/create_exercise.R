@@ -48,6 +48,9 @@ create_exercise <- function(name,
     js$labels <- labels
   }
 
+  js <- js[c("description","labels","evaluation",
+             "programming_language")]
+
   # Create dirs
   maindir <- file.path(path,name)
   if(!dir.exists(maindir))
